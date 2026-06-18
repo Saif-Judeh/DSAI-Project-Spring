@@ -1,15 +1,6 @@
-<<<<<<< HEAD
 <!-- < Statistical Analysis Methodology
 Methodology Choice,Inferential Statistical Analysis
 Inferential Statistical Analysis was selected over time series analysis because the Spotify dataset is cross-sectional, each row represents a track with no temporal ordering or timestamps. Time series analysis requires data collected sequentially over time, which does not apply here. Inferential statistics is the appropriate choice as the goal is to test whether measurable differences in audio features exist across genres, and to identify which features significantly predict popularity.
-=======
-Statistical Analysis Methodology
-Methodology Choice
-
-
-Inferential Statistical Analysis was selected over time series analysis because the Spotify dataset is cross-sectional, with each row representing a track with no temporal ordering or timestamps. Inferential statistics is the appropriate choice as the goal is to test whether measurable differences in audio features exist across genres and to identify which features significantly predict popularity.
-
->>>>>>> 007d6e74601fe5fb90765d031646481629226b6b
 Null Hypotheses
 
 
@@ -43,7 +34,7 @@ Model comparison bar chart (R² across all four models)
 Genre coefficient plot showing which genres boost or reduce predicted popularity
 
 Insights
-<<<<<<< HEAD
+
 The analysis confirms that genre is not just a label — it maps onto genuinely distinct and measurable audio profiles. However, audio features alone explain only 2.3% of the variance in popularity (R² = 0.023), meaning factors like artist fanbase, playlist placement, and platform promotion drive streaming success far more than how a track sounds. This is a non-obvious and actionable insight for a music platform: investing in audio-based recommendation engines has a ceiling, and artist/context-based signals should carry more weight. --> 
 
 
@@ -71,9 +62,3 @@ This measure uses FILTER to isolate only the rows where the explicit field equal
 Dashboard Features:
 
 The dashboard includes four KPI cards (total tracks, average popularity, high popularity track count, and explicit track percentage), a bar chart ranking genres by average popularity, a clustered bar chart comparing danceability, energy, and valence across genres, a scatter plot of danceability versus energy, a histogram of the overall popularity distribution, and a donut chart comparing explicit and clean tracks. Four interactive slicers (genre, explicit status, popularity tier, and danceability range) allow stakeholders to filter all visuals dynamically. -->
-=======
-
-
-
-Genre is not just a label, it encodes genuinely distinct and measurable audio profiles. Audio features alone explain only 2.3% of popularity variance, but adding genre as a predictor raises this to approximately 25%. The remaining 75% is attributable to factors like artist fanbase, playlist placement, and platform promotion. For a music platform, this means audio-based recommendation engines have a ceiling, and artist-level and contextual signals should carry more weight.
->>>>>>> 007d6e74601fe5fb90765d031646481629226b6b
